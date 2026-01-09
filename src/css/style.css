@@ -1,0 +1,63 @@
+:root{
+
+    --title-color: #1C232B;
+    --text-color: #6C7289;
+    --background-color: #F2EAE2;
+    --container-color: #FFFFFF;
+    --button-text-color: #FFFFFF;
+    --price-color: #3D8168;
+    --cart-button-color: #3D8168;
+    --cart-button-color-dark: #1A4032
+
+}
+
+
+
+.text-preset-1{
+    font-family: Fraunces, sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.text-preset-2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 110%;
+    letter-spacing: 0;
+}
+
+.text-preset-3{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 160%;
+    letter-spacing: 0;   
+}
+
+.text-preset-4{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 120%;
+    letter-spacing: 0.5rem;
+}
+
+.text-preset-5{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-decoration: line-through;
+}
+
+.price{
+    color: var(--highlight-color);
+}
+
+.cart-button{
+    color: var();
+}
