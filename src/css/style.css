@@ -1,4 +1,4 @@
-:root{
+:root {
 
     --title-color: #1C232B;
     --text-color: #6C7289;
@@ -6,14 +6,14 @@
     --container-color: #FFFFFF;
     --button-text-color: #FFFFFF;
     --price-color: #3D8168;
+    --price-higher-color: #6C7289;
     --cart-button-color: #3D8168;
     --cart-button-color-dark: #1A4032
-
 }
 
 
 
-.text-preset-1{
+.text-preset-1 {
     font-family: Fraunces, sans-serif;
     font-weight: 600;
     font-size: 3.2rem;
@@ -21,7 +21,7 @@
     letter-spacing: 0;
 }
 
-.text-preset-2{
+.text-preset-2 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
@@ -29,15 +29,15 @@
     letter-spacing: 0;
 }
 
-.text-preset-3{
+.text-preset-3 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 160%;
-    letter-spacing: 0;   
+    letter-spacing: 0;
 }
 
-.text-preset-4{
+.text-preset-4 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
@@ -45,7 +45,7 @@
     letter-spacing: 0.5rem;
 }
 
-.text-preset-5{
+.text-preset-5 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
@@ -54,10 +54,15 @@
     text-decoration: line-through;
 }
 
-.price{
-    color: var(--highlight-color);
+.price {
+    color: var(--price-color);
 }
 
-.cart-button{
-    color: var();
+.price-higher {
+    color: var(--price-higher-color);
+}
+
+.cart-button {
+    background-color: var(--cart-button-color);
+    color: var(--button-text-color);
 }
