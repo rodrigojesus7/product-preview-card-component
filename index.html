@@ -24,7 +24,7 @@
     <main>
 
         <picture class="perfume-image">
-            <source media="(min-width: 48rem)" srcset="./src/images/medium-parfum-image.png" alt="Image of the perfume">
+            <source media="(min-width: 48rem)" srcset="./src/images/medium-parfum-image.png">
             <img src="./src/images/small-parfum-image.png" alt="Image of the perfume">
         </picture>
 
@@ -38,12 +38,14 @@
 
             <div class="price-section">
                 <p class="price text-preset-1">$149.99</p>
-                <p class="price-higher text-preset-5">$169.99</p>
+                <p class="price-higher text-preset-5">
+                    <del>$169.99</del>
+                </p>
             </div>
 
             <button class="cart-button">
                 <img src="./src/images/cart-icon.png" alt="cart image">
-                <p class="text-preset-2">Add to cart</p>
+                <span class="text-preset-2">Add to cart</span>
             </button>
 
         </section>
